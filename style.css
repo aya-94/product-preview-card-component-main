@@ -5,8 +5,7 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
@@ -49,8 +48,8 @@ span.title {
 
 h2 {
     font-family: 'Fraunces', serif;
-    font-size: 30px;
-    line-height: 1em;
+    font-size: 34px;
+    line-height: 0.9em;
 }
 
 p {
@@ -79,6 +78,7 @@ p {
 
 button {
     color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
     border: none;
     border-radius: 10px;
